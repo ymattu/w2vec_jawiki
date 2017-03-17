@@ -3,7 +3,7 @@
 from gensim.models import word2vec
 
 # コーパス作成
-data = word2vec.Text8Corpus('jawiki_abst.txt')
+data = word2vec.Text8Corpus('jawiki_abst2.txt')
 
 # word2vecで学習
 # size      : 出力するベクトルの次元数
